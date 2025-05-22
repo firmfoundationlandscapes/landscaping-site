@@ -419,8 +419,8 @@ video {
 
 .about__video{
     position: relative;
-    width: 250px;
-    height: 320px;
+    max-width: 100%;
+    height: auto;
     justify-self: center;
     box-shadow: var(--shadow-img);
     transform: skew(-12deg);
@@ -708,6 +708,7 @@ video {
     .about__video{
         width: 200px;
         height: 250px;
+        transform: skew(-3deg);
     }
 
     .models__container{
