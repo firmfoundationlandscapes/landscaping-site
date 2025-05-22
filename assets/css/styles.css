@@ -146,6 +146,7 @@ video {
     font-weight: var(--font-semi-bold);
     color: var(--white-color);
     margin-bottom: .5rem;
+    text-align: center;
 }
 
 .main {
