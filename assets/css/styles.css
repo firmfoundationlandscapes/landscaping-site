@@ -709,6 +709,13 @@ video {
         width: 200px;
         height: 250px;
         transform: skew(-3deg);
+        overflow: visible;
+    }
+
+    .about__video img {
+        width: 100%;
+        height: auto;
+        display: block;
     }
 
     .models__container{
