@@ -708,6 +708,7 @@ video {
     .about__video{
         width: 200px;
         height: 250px;
+        display: block;
     }
 
     .models__container{
